@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: verdana;
+    text-transform: capitalize;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background: linear-gradient(45deg, #ff0 50%,#333 50%);
+}
+.container{
+    height: 75%;
+    width: 50%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    overflow-y: auto;
+}
+.card{
+    height:150px;
+    color: black;
+    text-align: center;
+}
